@@ -1,0 +1,37 @@
+{
+  "name": "@kemeny/tornasol",
+  "version": "0.1.1",
+  "description": "Official Node SDK for tornasol - the turn-based assessment platform.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "tornasol-run-agent": "bin/tornasol-run-agent.js",
+    "tornasol-submit-agent": "bin/tornasol-submit-agent.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "tornasol",
+    "kemeny",
+    "agent",
+    "evaluation",
+    "hiring",
+    "turn-based"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KemenyStudio/tornasol-sdk-node.git"
+  },
+  "homepage": "https://github.com/KemenyStudio/tornasol-sdk-node#readme",
+  "bugs": {
+    "url": "https://github.com/KemenyStudio/tornasol-sdk-node/issues"
+  }
+}
